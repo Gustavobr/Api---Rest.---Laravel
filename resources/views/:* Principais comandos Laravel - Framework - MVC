@@ -1,0 +1,48 @@
+/* Principais comandos Laravel - Framework - MVC
+*/
+
+
+- composer create-project laravel/laravel apilaravel
+
+- acessar arquivo .env
+
+setar os parametros e apontar ao seu <banco>
+
+migrations 
+
+php artisan make:migration create_<table>_table
+
+acessar o arquivo <migration>, incrementa a tabela 
+
+ex:
+
+$table->string('nome', 80);
+
+(....)
+
+
+em seguida php artisan migrate.
+
+
+--=> Criando Model -> 
+
+php artisan make:model Alunos
+
+
+Edita o arquivo
+
+Ex: Class Users extends Model
+
+use SoftDeletes;
+
+protected $fillables =[<campos da tabela>]
+//preenchiveis
+
+
+popular table Seed
+
+Ex: DB::table('alunos').insert([
+	
+	'nome' => 'Gustavo barbosa',
+	... 
+)];'
