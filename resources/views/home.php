@@ -13,7 +13,7 @@
     <a class="nav-link active" href="listar">Listar Alunos</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link active" href="#">Adicionar Aluno</a>
+    <a class="nav-link active" href="form_add">Adicionar Aluno</a>
   </li>
   <li class="nav-item">
     <a class="nav-link active" href="#">Adicionar Curso</a>

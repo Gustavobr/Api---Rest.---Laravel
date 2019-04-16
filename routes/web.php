@@ -20,6 +20,7 @@ Route::get('/listar', 'AlunoController@index');
 Route::get('/home','HomeController@home');
 Route::get('/', 'HomeController@home');
 Route::get('/listar/{curso}', 'AlunoController@show');
+Route::get('/add','AlunoController@create');
 
 Route::get('/json', function () {
     return response()->json([

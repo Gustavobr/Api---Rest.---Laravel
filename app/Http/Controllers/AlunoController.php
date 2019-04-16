@@ -19,7 +19,9 @@ class AlunoController extends Controller
 
     /*Function para criar novo aluno */
     public function create(){
-    	//$aluno = new AlunoModel();
+
+        return view('form_add');/*->with()*/
+    	//$aluno = insert('Insert into alunos(nome,curso,email')values(?,?,?);
     	//this->$aluno->nome = nome;
 
     }
