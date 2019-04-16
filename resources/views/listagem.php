@@ -34,9 +34,11 @@
 	<?php endforeach; ?>
 		<br/>
 	<center>
+	<fieldset>
 		<footer>
 			<span class="btn-link"><a href="/" class="btn-link"><u class="btn-link">Voltar</u> <span></span>></a></span><span class="btn-link"><input type="button" value=Imprimir class="btn-info" onclick="javascript:window.print()"/></span>
 		</footer>
+	</fieldset>
 	</center>
 </body>
 </html>
