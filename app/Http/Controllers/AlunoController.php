@@ -25,6 +25,6 @@ class AlunoController extends Controller
 
      public function show ($curso)
     {
-        return new AlunoResource(AlunoModel::find($curso));
+        return "Psicologia";
     }
 }

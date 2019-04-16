@@ -21,6 +21,15 @@ Route::get('/home','HomeController@home');
 Route::get('/', 'HomeController@home');
 Route::get('/listar/{curso}', 'AlunoController@show');
 
+Route::get('/json', function () {
+    return response()->json([
+    'nome' => 'Gustavo Barbosa',
+    'email' => 'GustavoScipiao@gmail.com',
+    'curso' => 'Sistemas de Informação'
+]);
+});
+
+
 
  
 
