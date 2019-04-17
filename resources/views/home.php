@@ -11,17 +11,17 @@
    <nav class="navbar navbar-inverse">
    		<ul class="nav nav-tabs">
   <li class="nav-item">
-    <a class="nav-link active"  href="listar">Listar Alunos</a>
+    <a class="nav-link active"  href="listar">Listar Participantes</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link active" href="add">Adicionar Aluno</a>
+    <a class="nav-link active" href="add">Novo Participante</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link active" href="#">Adicionar Curso</a>
+    <a class="nav-link active" href="#">Listar Faculdades</a>
   </li>
-      <a class="nav-link active" href="#">Relatórios</a>
+      <a class="nav-link active" href="#">Novo Congresso</a>
   </li>
-      <a class="nav-link active" href="#">Financeiro</a>
+      <a class="nav-link active" href="#">Temas</a>
   </li>
  
 </ul>

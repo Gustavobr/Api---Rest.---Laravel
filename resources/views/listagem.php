@@ -22,6 +22,7 @@
 				<th scope="row">Nome</th>
 				<th scope="row">Curso</th>
 				<th scope="row">Email</th>
+				<th scope="row">trabalho</th>
 			</thead>	
 			<tr>
 				<td class="table-light"><?= $a->nome ?> </td>
