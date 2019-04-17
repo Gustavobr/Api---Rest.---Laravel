@@ -21,6 +21,8 @@ Route::get('/home','HomeController@home');
 Route::get('/', 'HomeController@home');
 Route::get('/listar/{curso}', 'AlunoController@show');
 Route::get('/add','AlunoController@create');
+//Route::group()
+Route::get('/api', 'AlunoController@returnJson')->name('Request into Json');
 
 Route::get('/json', function () {
     return response()->json([
